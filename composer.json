@@ -1,5 +1,5 @@
 {
-    "name": "www/rsa",
+    "name": "faj1/rsa",
     "description": "这是一个RSA加密和解密的库",
     "type": "library",
     "require": {
