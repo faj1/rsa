@@ -1,6 +1,9 @@
 **一个利用RSA和AES进行混合加密的PHP库**
 
-* 安装命令:composer require faj1/rsa
+* 安装命令:
+* ```
+  composer require faj1/rsa
+  ```
 * 使用例子请参考测试文件
 
 ```
