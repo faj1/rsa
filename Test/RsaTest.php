@@ -13,7 +13,7 @@ class RsaTest extends TestCase
     public function testCreateKeyExample()
     {
         $Tool = new Tool();
-        $Data = $Tool->hybrid_encryption('HI,123456');
+        $Data = $Tool->hybrid_encryption('HI,123456下从 撒大大');
         var_dump($Data);
         echo '解密结果:'.$Tool->hybrid_decrypt($Data);
     }

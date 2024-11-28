@@ -150,7 +150,6 @@ class Ras
         if ($length <= 0) {
             return false;
         }
-        var_dump($length);
         $plaintext = str_split($original_text, $length);
         $ciphertext = '';
         foreach ($plaintext as $m) {
